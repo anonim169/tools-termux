@@ -5,7 +5,7 @@ pkg update -y &>/dev/null
 pkg install nodejs curl -y &>/dev/null
 
 echo -e "\e[36m[2/3] Mendownload sistem keamanan...\e[0m"
-curl -sL "https://raw.githubusercontent.com/USERNAME/REPO/main/tools.js" -o $HOME/tools.js
+curl -sL "https://raw.githubusercontent.com/anonim169/tools-termux/refs/heads/main/tools.js" -o $HOME/tools.js
 chmod +x $HOME/tools.js
 
 echo -e "\e[36m[3/3] Memasang Auto-Run...\e[0m"
